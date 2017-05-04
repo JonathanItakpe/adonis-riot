@@ -1,0 +1,31 @@
+{
+  "name": "adonis-riot",
+  "version": "0.0.1",
+  "description": "Example of Adonis and riot",
+  "repository": "riot/examples",
+  "main": "app/main.js",
+  "author": "Jonathan Itakpe",
+  "license": "MIT",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/webpack --watch -d"
+  },
+  "keywords": [
+    "riot",
+    "webpack",
+    "adonis"
+  ],
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015-riot": "^1.1.0",
+    "riot": "^3.0.7",
+    "riot-hot-reload": "0.0.2",
+    "riot-tag-loader": "1.0.0",
+    "webpack": "^1.14.0",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
